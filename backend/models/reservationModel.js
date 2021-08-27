@@ -11,3 +11,5 @@ const reservationSchema = mongoose.Schema({
     type: Date,
   },
 });
+
+const Reservation = mongoose.model('Reservation', reservationSchema);
